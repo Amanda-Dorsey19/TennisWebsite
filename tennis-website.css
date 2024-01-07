@@ -1,0 +1,481 @@
+/*Homepage CSS */
+
+#home-wrapper {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+    background-image: url(images/green-tennis.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#homepage-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 6.0em;
+    
+}
+
+#homepage-text h2 {
+    flex: 1;
+    text-decoration: none;
+    animation: fadeIn 5s;
+}
+
+#homepage-text a {
+    text-decoration: none;
+    color: yellow;
+    border-color: yellow;
+    border-width: thin;
+    border-style: solid;
+}
+
+/*navigation CSS- this should all be the same*/
+footer {
+    background-color: forestgreen;
+    text-align: center;
+}
+
+footer h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/*Players*/
+#center h2 {
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    
+}
+
+
+body {
+    margin: 0;
+}
+
+#wrapper {
+    border: thick solid forestgreen;
+}
+
+#top-ten-males {
+    font-size: 6.0em;
+    animation: fadeIn 5s;
+    
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#top-ten-males h1 {
+    margin: 0px;
+    text-align:center;
+    
+}
+
+#header-background-males {
+    /* background-color: forestgreen; */
+    color: yellow; 
+    font-size: 1.5em;
+    text-align: center;
+    background-image: url(images/Tsitsipas-Arnaud-Gabas.jpg);
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    padding: 5em;
+
+}
+
+#header-background-females {
+    color: yellow; 
+    font-size: 1.5em;
+    text-align: center;
+    background-image: url(images/coco-gauff-us-open-2019-breakthrough-lead.jpg);
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    
+    padding: 5em;
+}
+#alcaraz, #nadal, #ruud, #tsitsipas, #aliassime, #fritz, #djokovic, #medvedev, #rublev, #hurkacz {
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: row;
+      
+}
+#iga, #jabeur, #pegula, #garcia, #sabalenka, #sakkari, #gauff, #kasatkina, #kudemetova, #halep {
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: row;  
+}
+#two-players {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+#two-players-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+#two-players ul {
+    background-color: forestgreen;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#two-players h2 {
+    color: black;
+}
+
+/*History*/
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  #history-header {
+    background-color: forestgreen;
+    color: yellow;
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  #history-header h1 {
+    margin: 0;
+  }
+  
+  #center-history h1, h2, h3 {
+    font-family: sans-serif;
+    color: yellow;
+  }
+  
+  #center-history h2 {
+    margin-top: 0;
+    
+  }
+ a {
+    text-decoration: none;
+ }
+  #center-history h2 {
+    
+    border-bottom-style: none;
+}
+  
+  #history-main p {
+    margin: 15px;
+    text-align: justify;
+    color: yellow;
+  }
+  #history-main a {
+    color: white;
+  }
+  aside {
+    padding: 20px 5px;
+    margin: 10px 0;
+  }
+  
+  aside img {
+    max-width: 100px;
+  }
+  
+
+  
+  
+  /* SITE-LEVEL NAVIGATION for history -------------------------------------*/
+  
+  #site-nav a {
+    background-color: yellow;
+    color:  forestgreen;
+    
+    font-family: sans-serif;
+    font-size: 1.2em;
+    
+    display: block;
+  
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  #site-nav a:hover {
+    background-color: white;
+    color:  forestgreen;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #site-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+  }
+  
+  #site-nav li {
+    flex: 1;
+  
+  }
+  
+  
+  /* PAGE-LEVEL NAVIGATION ----------------------------------------*/
+  
+  #page-nav {
+    background-color: black;
+  
+  }
+  
+  #page-nav a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2em;
+  
+    display: block;
+  
+    text-decoration: none;
+    text-align: right;
+  
+    padding: 10px 20px 10px 0;
+  }
+  
+  #page-nav a:hover {
+    background-color: forestgreen;
+    color: white;
+  }
+  
+  
+  /* HOLY GRAIL -------------------------------------------------*/
+  #wrapper-hisory {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  #center-history {
+    flex: 1;
+  
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #page-nav {
+    flex: 2;
+  }
+  
+  #history-main {
+    flex: 6;
+    padding: 30px;
+    background-color: forestgreen;
+  }
+  
+  aside {
+    flex: 2;
+  }
+  
+  aside img {
+    max-width: 200px;
+}
+  
+  /* CHARACTERS ASIDE -------------------------------------------*/
+  aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin: 0;
+  }
+  
+  #pictures-tennis {
+    flex: 1;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .tennis-tournament {
+    /* background-color: rgb(148, 173, 255); */
+    padding: 5px 10px;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .tennis-tournament h3 {
+    margin: 0 10px;
+    flex: 1;
+  }
+  
+
+  
+  /* FOOTER PATTERNS for history ------------------------------------------*/
+  
+footer {
+    background-color: forestgreen;
+    color: black;
+}
+
+footer p {
+    margin: 0;
+}
+
+/*News CSS----------------*/
+
+#tournament-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: yellow;
+    animation: fadeIn 5s;
+    font-size: 4em;
+
+}
+
+#body-news {
+    background-color: forestgreen;
+}
+
+#in-memorium h2 {
+    color:black;
+}
+
+#new-movie h2 {
+    color: black;
+}
+#site-nav a {
+  background-color: yellow;
+  color:  forestgreen;
+  
+  font-family: sans-serif;
+  font-size: 1.2em;
+  
+  display: block;
+
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+}
+
+#site-nav a:hover {
+  background-color: white;
+  color:  forestgreen;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#site-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+#two-players {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+#main-news section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-color: antiquewhite;
+  width: 400px;
+  margin: 30px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 25px;
+}
+#main-news {
+    display: flex;
+    flex-direction:column;
+}
+#main-news a {
+  color: forestgreen;
+  text-decoration: none;
+}
+  
+  
+  /* VIEWPORT RESIZING for whole project----------------------------------------*/
+
+@media screen and (max-width: 714px){
+    #site-nav ul {
+        flex-direction: column;
+      }
+    #pictures-tennis{
+        display: none;
+    }
+    aside {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 862px){
+    #header-background-males, #header-background-females{
+        padding:0;
+        background-size: 1000px;
+    }
+    
+    #two-players{
+        flex-direction:column;
+    }
+}
+
+@media screen and (max-width:1085px){
+    #homepage-text{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:439px){
+    #homepage-text{
+    font-size: 2.5em;
+}
+}
+
+ @media screen and (max-width: 740px){
+    #tournament-news {
+        text-align: center;
+    }
+} 
+
+@media screen and (max-width:619px){
+    #top-ten-males {
+        font-size: 4.0em;
+    }
+    #top-ten-females {
+        font-size: 4.0em;
+    }
+    #header-background-males {
+        background-size: 800px;
+    }
+    #header-background-females {
+       background-size: 800px;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    #two-players-2 {
+        flex-direction: column;
+    }
+}
+
+
+ 
